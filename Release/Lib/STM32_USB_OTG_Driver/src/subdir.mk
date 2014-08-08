@@ -14,9 +14,9 @@ OBJS += \
 ./Lib/STM32_USB_OTG_Driver/src/usb_hcd_int.o 
 
 C_DEPS += \
-./Lib/STM32_USB_OTG_Driver/src/usb_core.d \
-./Lib/STM32_USB_OTG_Driver/src/usb_hcd.d \
-./Lib/STM32_USB_OTG_Driver/src/usb_hcd_int.d 
+../Lib/STM32_USB_OTG_Driver/src/usb_core.d \
+../Lib/STM32_USB_OTG_Driver/src/usb_hcd.d \
+../Lib/STM32_USB_OTG_Driver/src/usb_hcd_int.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

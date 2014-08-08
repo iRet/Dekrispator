@@ -4,13 +4,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../USB/MIDIstream_class/usbh_midi_core.c 
+../../USB/MIDIstream_class/usbh_midi_core.c 
 
 OBJS += \
 ./USB/MIDIstream_class/usbh_midi_core.o 
 
 C_DEPS += \
-./USB/MIDIstream_class/usbh_midi_core.d 
+../USB/MIDIstream_class/usbh_midi_core.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

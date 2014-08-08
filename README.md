@@ -66,5 +66,13 @@ Simple command line :
 Go into Release folder and type make (with Cygwin terminal).
 
 Compiles also on Linux (Ubuntu 12.04 LTS) !
-- - - 
-  
+
+- - - -
+
+Fixed to mk files to compile on OSX from console, just type:
+
+`make
+arm-none-eabi-objcopy -O binary Dekrispator.elf Dekrispator.bin
+st-flash write Dekrispator.bin 0x8000000`
+
+All copyrights to MrBlueXav

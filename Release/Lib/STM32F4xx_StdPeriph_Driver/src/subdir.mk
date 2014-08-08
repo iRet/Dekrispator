@@ -30,17 +30,17 @@ OBJS += \
 ./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.o 
 
 C_DEPS += \
-./Lib/STM32F4xx_StdPeriph_Driver/src/misc.d \
-./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.d \
-./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.d \
-./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.d \
-./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.d \
-./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.d \
-./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.d \
-./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.d \
-./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.d \
-./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.d \
-./Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.d 
+../Lib/STM32F4xx_StdPeriph_Driver/src/misc.d \
+../Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.d \
+../Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.d \
+../Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.d \
+../Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.d \
+../Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.d \
+../Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.d \
+../Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.d \
+../Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.d \
+../Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.d \
+../Lib/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

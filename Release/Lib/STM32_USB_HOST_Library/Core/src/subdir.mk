@@ -16,10 +16,10 @@ OBJS += \
 ./Lib/STM32_USB_HOST_Library/Core/src/usbh_stdreq.o 
 
 C_DEPS += \
-./Lib/STM32_USB_HOST_Library/Core/src/usbh_core.d \
-./Lib/STM32_USB_HOST_Library/Core/src/usbh_hcs.d \
-./Lib/STM32_USB_HOST_Library/Core/src/usbh_ioreq.d \
-./Lib/STM32_USB_HOST_Library/Core/src/usbh_stdreq.d 
+../Lib/STM32_USB_HOST_Library/Core/src/usbh_core.d \
+../Lib/STM32_USB_HOST_Library/Core/src/usbh_hcs.d \
+../Lib/STM32_USB_HOST_Library/Core/src/usbh_ioreq.d \
+../Lib/STM32_USB_HOST_Library/Core/src/usbh_stdreq.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

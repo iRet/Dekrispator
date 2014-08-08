@@ -46,25 +46,25 @@ OBJS += \
 ./Synth/timers.o 
 
 C_DEPS += \
-./Synth/adsr.d \
-./Synth/audio.d \
-./Synth/blepvco.d \
-./Synth/chorusFD.d \
-./Synth/delay.d \
-./Synth/drifter.d \
-./Synth/main.d \
-./Synth/math_tools.d \
-./Synth/midi_interface.d \
-./Synth/minblep_tables.d \
-./Synth/notesTables.d \
-./Synth/oscillators.d \
-./Synth/phaser.d \
-./Synth/random.d \
-./Synth/resonantFilter.d \
-./Synth/sequencer.d \
-./Synth/sinetable.d \
-./Synth/soundGen.d \
-./Synth/timers.d 
+../Synth/adsr.d \
+../Synth/audio.d \
+../Synth/blepvco.d \
+../Synth/chorusFD.d \
+../Synth/delay.d \
+../Synth/drifter.d \
+../Synth/main.d \
+../Synth/math_tools.d \
+../Synth/midi_interface.d \
+../Synth/minblep_tables.d \
+../Synth/notesTables.d \
+../Synth/oscillators.d \
+../Synth/phaser.d \
+../Synth/random.d \
+../Synth/resonantFilter.d \
+../Synth/sequencer.d \
+../Synth/sinetable.d \
+../Synth/soundGen.d \
+../Synth/timers.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

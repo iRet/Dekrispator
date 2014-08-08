@@ -12,8 +12,8 @@ OBJS += \
 ./USB/usbh_usr.o 
 
 C_DEPS += \
-./USB/usb_bsp.d \
-./USB/usbh_usr.d 
+../USB/usb_bsp.d \
+../USB/usbh_usr.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
